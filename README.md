@@ -66,6 +66,11 @@ This project is also designed as an introductory example for Android testing tec
   ```bash
   ./gradlew testDebugUnitTest
 
+ - **Screenshots:**
+Below are some screenshots demonstrating the look and feel of QuotesApp, including the stunning neumorphic UI:
+
+<div align="center"> <img src="screenshots/screen1.png" alt="Home Screen with Quotes" width="200px" />
+
  - **License:**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
