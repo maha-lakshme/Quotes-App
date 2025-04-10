@@ -1,0 +1,32 @@
+<!-- File: app/src/main/res/layout/activity_main.xml -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <!-- No bound variables for this layout -->
+    </data>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Custom Material Toolbar with centered title -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/topAppBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:title="QUOTES"
+            app:titleCentered="true"
+            app:titleTextColor="@android:color/white"
+            app:popupTheme="@style/ThemeOverlay.MaterialComponents.Light"
+            />
+
+        <!-- RecyclerView to display the list of quotes -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvQuotes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:paddingTop="?attr/actionBarSize" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

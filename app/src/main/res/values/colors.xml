@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Pastel color palette -->
+    <!-- A soft, muted background: a very light cream -->
+    <color name="pastel_background">#FFF8F0</color>
+
+    <!-- Pastel primary color: a light aqua-green -->
+    <color name="pastel_primary">#A8DADC</color>
+
+    <!-- Pastel primary variant: a slightly deeper, calmer blue -->
+    <color name="pastel_primary_variant">#457B9D</color>
+
+    <!-- Pastel secondary color: a muted pastel orange -->
+    <color name="pastel_secondary">#F4A261</color>
+
+    <!-- Pastel accent color: a soft, warm coral -->
+    <color name="pastel_accent">#E76F51</color>
+
+    <!-- For the neumorphic design, retaining some neutrals -->
+    <color name="nm_background">#E0E5EC</color>
+    <color name="nm_light_shadow">#FFFFFF</color>
+    <color name="nm_dark_shadow">#A3B1C6</color>
+
+    <!-- Standard colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

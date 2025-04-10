@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme with pastel colors and custom font -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/pastel_background</item>
+        <item name="colorPrimary">@color/pastel_primary</item>
+        <item name="colorPrimaryVariant">@color/pastel_primary_variant</item>
+        <item name="colorSecondary">@color/pastel_secondary</item>
+        <item name="colorAccent">@color/pastel_accent</item>
+        <!-- Set a default font family for the app. -->
+        <item name="android:fontFamily">@font/courgette_font</item>
+    </style>
+
+    <!-- Custom Toolbar Style -->
+    <style name="Widget.Toolbar.Pastel" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="android:background">@color/pastel_primary</item>
+        <item name="titleTextAppearance">@style/TextAppearance.App.Toolbar.Title</item>
+    </style>
+
+    <!-- Text Appearance for Toolbar Title using Charm font -->
+    <style name="TextAppearance.App.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">26sp</item>
+        <!-- Apply the custom font -->
+        <item name="android:fontFamily">@font/courgette_font</item>
+    </style>
+
+    <!-- Default Text Appearance for the rest of the app -->
+    <style name="TextAppearance.App.Default" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily">@font/courgette_font</item>
+    </style>
+</resources>
